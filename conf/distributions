@@ -1,7 +1,7 @@
 Origin: Debian
 Codename: noble
 Description: Official Debian Squeeze mirror
-Architectures: arm64 source
+Architectures: arm64
 Components: main
 UDebComponents: main
 Update: - debian-noble
