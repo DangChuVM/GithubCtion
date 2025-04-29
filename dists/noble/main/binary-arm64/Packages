@@ -1,0 +1,15 @@
+Package: repo-key
+Version: 1.0.1
+Architecture: all
+Maintainer: DangChuVM <akirahung905@gmail.com>
+Priority: required
+Section: admin
+Filename: pool/main/r/repo-key/repo-key_1.0.1_all.deb
+Size: 11536
+SHA256: 5da82e302bb8c91bc77c7a2db9b717ff3fa8e2bed71c77c54aeb6b9c7fdf0b6d
+SHA1: 84aa9587df44d412cde06d20e58d451fdc9c1fec
+MD5sum: 1414b73323d4a2ef4277ffa61b2f4aab
+Description: RePo key DangChuVM
+ .
+ (Repackaged on Mon, 28 Apr 2025 17:59:09 +0000 by dpkg-repack.)
+

@@ -1,0 +1,4 @@
+Component: main
+Origin: Debian
+Architecture: arm64
+Description: Official Debian Squeeze mirror
