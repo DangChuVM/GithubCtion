@@ -1,12 +1,12 @@
 Origin: Debian
 Codename: noble
-Date: Tue, 29 Apr 2025 16:08:06 UTC
+Date: Tue, 29 Apr 2025 16:31:32 UTC
 Architectures: arm64
 Components: main
 Description: Official Debian Squeeze mirror
 MD5Sum:
- e9e29f7a4ed93b6fb626caf9207a9f86 2114 main/binary-arm64/Packages
- 2d5e00988b42407da67fc51e91e5d923 1200 main/binary-arm64/Packages.gz
+ 3f9c70f4bf739800999758f3c4f45d8a 3693 main/binary-arm64/Packages
+ 3d867e7dea93ca0cf81ac15da5b29c40 1866 main/binary-arm64/Packages.gz
  cb0a00e7fdd489e10b7b751f347216a1 95 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -14,8 +14,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  0cb02da575fc840c66078cd163a5d021 96 main/source/Release
 SHA1:
- 31c20f1925805bb898187804ab60103f6e006aa4 2114 main/binary-arm64/Packages
- 7c4a3f4ec4d50364e2c91d8936bbdfc6da99f2df 1200 main/binary-arm64/Packages.gz
+ c8e7e88b09d12f3867c48029b7b72dd8785851ca 3693 main/binary-arm64/Packages
+ 244f3ba5cd2048ab4dc27ab349b77b0943bd49d5 1866 main/binary-arm64/Packages.gz
  ce585539ea6ea0c5cd261f70a3486d7b5ef26282 95 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -23,8 +23,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  79327cd8b69d26824524f1496acab058e4c4a84b 96 main/source/Release
 SHA256:
- 2474dc4caa7d4b474c5d5cd47fa88cb806c07d16ca982bcfbac4742d0366e9cc 2114 main/binary-arm64/Packages
- 902406f35d3f380d3ba0abb2599b0b554e1cba8fe6616ecdcffa4cfb522d1d6c 1200 main/binary-arm64/Packages.gz
+ 9f0d6e5ec034acbfff6947362d9ca94782d5718af14f59390089e88b2b8fe0ed 3693 main/binary-arm64/Packages
+ 90cb6667f951ffaf97e203cde577cda880c183a97384c1d890974801154c1df1 1866 main/binary-arm64/Packages.gz
  6afe98cffaee63e5af086574310e99cef8168f1416f39a55892d97a8d93a821d 95 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz

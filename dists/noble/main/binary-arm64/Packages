@@ -1,3 +1,44 @@
+Package: apt-utils
+Source: apt
+Version: 2.7.14build2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 772
+Depends: apt (= 2.7.14build2), libapt-pkg6.0t64 (>= 2.7.14build2), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Priority: required
+Section: admin
+Filename: pool/main/a/apt/apt-utils_2.7.14build2_arm64.deb
+Size: 205248
+SHA256: 8f4f8a13f2f5658b68b47f4eee4a61f75b78a68c52f7c89176574544a5dcffd9
+SHA1: 4af8aec260c593a7fe050cf1443955ae4c087054
+MD5sum: 844b9546d9d69f71d596b6449e44a9ef
+Description: package management related utility programs
+ This package contains some less used commandline utilities related
+ to package management with APT.
+ .
+  * apt-extracttemplates is used by debconf to prompt for configuration
+    questions before installation.
+  * apt-ftparchive is used to create Packages and other index files
+    needed to publish an archive of Debian packages
+  * apt-sortpkgs is a Packages/Sources file normalizer.
+
+Package: code-server
+Version: 4.99.3
+Architecture: arm64
+Maintainer: Joe Previte <joe@coder.com>
+Vendor: Coder
+Installed-Size: 380586
+Homepage: https://github.com/coder/code-server
+Priority: optional
+Section: devel
+Filename: pool/main/c/code-server/code-server_4.99.3_arm64.deb
+Size: 104111728
+SHA256: 7c9bad629c0127ffab65f82dab1489eedee2acb5dc92a37325c63cf4e3b41896
+SHA1: 37ff05b5ebd3bc71120ed9344913b7df1ea425d0
+MD5sum: e15e0b226e54be5d8073396b84993f07
+Description: Run VS Code in the browser.
+
 Package: php8.2-fpm
 Source: php8.2
 Version: 8.2.28-1+ubuntu24.04.1+deb.sury.org+1
