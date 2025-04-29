@@ -1,0 +1,31 @@
+#!/bin/bash
+# Tự động pull, track file >50MB có định dạng nặng (.zip, .gz...) bằng Git LFS, commit và push
+clear
+# Danh sách các định dạng file cần kiểm tra
+EXTENSIONS=("zip" "gz" "tar" "rar" "7z" "deb" "iso" "img" "mp4" "mp3" "mkv" "avi")
+
+# Pull trước để tránh conflict
+git pull
+
+# Tìm và track các file có đuôi bên trên nếu >50MB
+for ext in "${EXTENSIONS[@]}"; do
+    find . -type f -name "*.${ext}" -size +50M ! -path "./.git/*" | while read -r file; do
+        pattern="*.${ext}"
+        # Kiểm tra xem đã được track chưa
+        if ! grep -q "$pattern" .gitattributes 2>/dev/null; then
+            git lfs track "$pattern"
+            echo "Đã track $pattern bằng Git LFS"
+        fi
+    done
+done
+
+# Add thay đổi
+git add .
+
+# Commit nếu có thay đổi
+if git diff --cached --quiet; then
+    echo "Không có gì để commit."
+else
+    git commit -m "Tự động track file lớn (.zip, .gz, .deb...) và push"
+    git push
+fi
