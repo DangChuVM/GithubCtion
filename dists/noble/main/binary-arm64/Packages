@@ -1,3 +1,34 @@
+Package: php8.2-fpm
+Source: php8.2
+Version: 8.2.28-1+ubuntu24.04.1+deb.sury.org+1
+Architecture: arm64
+Maintainer: Debian PHP Maintainers <team+pkg-php@tracker.debian.org>
+Installed-Size: 5752
+Depends: media-types | mime-support, php8.2-cli, php8.2-common (= 8.2.28-1+ubuntu24.04.1+deb.sury.org+1), php8.2-opcache, procps, tzdata, ucf, libacl1 (>= 2.2.23), libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libc6 (>= 2.38), libpcre2-8-0 (>= 10.32), libsodium23 (>= 1.0.18), libssl3t64 (>= 3.0.0), libsystemd0, libxml2 (>= 2.8.0), zlib1g (>= 1:1.1.4)
+Suggests: php-pear
+Provides: php-fpm, php-json, php8.2-json, phpapi-20220829
+Homepage: http://www.php.net/
+Priority: optional
+Section: php
+Filename: pool/main/p/php8.2/php8.2-fpm_8.2.28-1+ubuntu24.04.1+deb.sury.org+1_arm64.deb
+Size: 1855932
+SHA256: 718a4563d8e62b48dde49ef0be57acb1ec1e8f76d5aa2176cb555eb1ed93d21e
+SHA1: a0d0a5b864ad1f382488974a2c3bc1a19e9b1986
+MD5sum: 4ade1a38935f6fa318987dfff553e74f
+Description: server-side, HTML-embedded scripting language (FPM-CGI binary)
+ This package provides the Fast Process Manager interpreter that runs
+ as a daemon and receives Fast/CGI requests.  Note that MOST Apache users
+ probably want the libapache2-mod-php8.2 package.
+ .
+ The following extensions are built in: Core date filter hash json libxml
+ openssl pcre random Reflection session sodium SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ (Repackaged on Mon, 28 Apr 2025 17:59:37 +0000 by dpkg-repack.)
+
 Package: repo-key
 Version: 1.0.1
 Architecture: all

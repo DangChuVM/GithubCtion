@@ -3,13 +3,13 @@ Hash: SHA512
 
 Origin: Debian
 Codename: noble
-Date: Tue, 29 Apr 2025 16:03:28 UTC
+Date: Tue, 29 Apr 2025 16:08:06 UTC
 Architectures: arm64
 Components: main
 Description: Official Debian Squeeze mirror
 MD5Sum:
- 6cd4d7ea1d652ea42400ec5a1bac049f 460 main/binary-arm64/Packages
- cb776faed76c0f878ede1af8da465502 355 main/binary-arm64/Packages.gz
+ e9e29f7a4ed93b6fb626caf9207a9f86 2114 main/binary-arm64/Packages
+ 2d5e00988b42407da67fc51e91e5d923 1200 main/binary-arm64/Packages.gz
  cb0a00e7fdd489e10b7b751f347216a1 95 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  0cb02da575fc840c66078cd163a5d021 96 main/source/Release
 SHA1:
- 8bf11c72c19568687d457a9b08cd33ee75475986 460 main/binary-arm64/Packages
- 4405092aec2288258d300bbb7d192d0bcb8390cd 355 main/binary-arm64/Packages.gz
+ 31c20f1925805bb898187804ab60103f6e006aa4 2114 main/binary-arm64/Packages
+ 7c4a3f4ec4d50364e2c91d8936bbdfc6da99f2df 1200 main/binary-arm64/Packages.gz
  ce585539ea6ea0c5cd261f70a3486d7b5ef26282 95 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  79327cd8b69d26824524f1496acab058e4c4a84b 96 main/source/Release
 SHA256:
- 8a8662f6dfe074077346976c38bf9bd0c21ec2c331ec443d8c9896ab4ea37ed8 460 main/binary-arm64/Packages
- 2759dbdeef3a0e2bb2307cd3c8985be1351ed7c6f3ceabc6cd3302b39a169d02 355 main/binary-arm64/Packages.gz
+ 2474dc4caa7d4b474c5d5cd47fa88cb806c07d16ca982bcfbac4742d0366e9cc 2114 main/binary-arm64/Packages
+ 902406f35d3f380d3ba0abb2599b0b554e1cba8fe6616ecdcffa4cfb522d1d6c 1200 main/binary-arm64/Packages.gz
  6afe98cffaee63e5af086574310e99cef8168f1416f39a55892d97a8d93a821d 95 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
@@ -36,17 +36,17 @@ SHA256:
  ee9f9846b1fa3d721cf7a2a8c4365005588b13c77d3626bcd546eb47644b136d 96 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEcreU08tDFz5qOkrXVT1fN8oxOQEFAmgQ+FAACgkQVT1fN8ox
-OQFdZA/6Av1m9d1Si/QhNC2KywCFlVrhMvMAckD1jrCI6w0BvGpadYJn6w8QQnaY
-GnwFykoU+Z3Sej6p1Cam4Qx+/W0UfjkC9l/OJQrednjXH/xcTkbBIQ9zGJJRRgnH
-c7/fYg8Yw5lrb/sMbTaA+9SNclXcy94xPJzjr1a/vBNPMh+r/I8Ra3Qdcha4Ckz7
-ihrKqtEIPR4IEhnpujeiLXirNyzK8PIXOuslD2/sfvvrnqX2AkIeEdEEjAZYIUAD
-5g/xSEhedi0Xz7sQezf6SoeNSHf+M/ZcPOS315aa6/uxqtoBRpLLrGcLM4o+18io
-FHyei4wCogZL6q4OSofL/csqeRfK+OpH76sUNmk7L+d43Hzzzyl6P7WBP8Uubsci
-XyTugfxCurFkmBrZ8ig8wubvfrch9afRE67Z4I56BarIoys4afABdB5YY6dBRwge
-d1u+7kndeawpkzd6nF81OEjMDYPkBz+TR/VIFAsJV56HTbzhtWc+1js72DY6C07q
-TYE8sOv25e+d0IZMlNBaqm94b4RIBp+JvwCbDjYBZ/x+RVgVTiuIdty2Ts9zMYEx
-QxS8q/raOyOqgalhbxG3hmq5XyU/IyXfex/rOw/LcOk/JzHe9/oCtEFTOiOyxdl3
-Z4fCbSC8Zv9mCmyTsrvyRDrkkuDSdcVNTwEwSHMVn0gVtJeeqjU=
-=BhE3
+iQIzBAEBCgAdFiEEcreU08tDFz5qOkrXVT1fN8oxOQEFAmgQ+WYACgkQVT1fN8ox
+OQH+cxAApaDSu+Oa8vMcJEeB6DnCgfq/UHn7AUJhKZ2+axHPG3iZGkGsxXRnbA2K
+EuKUdVIwR9di7AKkd+EZCouOIq+BgM8ZhsqamOIXl6kKf6+noO6xbMTnDpkQsM3Q
+Vi7tLpY5f8LxE1CG0tZfNXDF6vlvpLCFGU9QxSkrKQ8stV/Nll/zO9hwKJvb9HXN
+udaewRIo74TYlAtfntea9zb5/YmitkxYtz2Z57j9cuS2MA1XFbWilbp+vAfzUrHS
+OSHqKXx57iIfMqZ3iuc4qsXLN8maVhIFdr7snEeeEbtUbKE1blbd/O9Ku2hoaetZ
+xLaHNt3IAa2iojVyXn09TKoYUn3aNMUZBa7LlTvLWiHV3dEs0MgLs4gtHF0m9bpy
+zp1ulf/4cpAqvtNHXzyjxaDZw7y3UPQRJwGs2eRhrru7JDTNgKOqZ6aCUfS7EdSJ
+MIsYGQGLmEwqLVPq0BqydxAqSiDOf7/kNeiZwXCev3byKQhX0vZtdbE0Qzew7H2P
+4EsVandKsnU+Y2yTrgk9/axB9+yCV+6oRb0icqogKmpu9aSmf9KlZztO7GfIWcx5
+LwrZ6Bg2bJDWkGFINvk91n4Xuj2nn8efiFC5iUAuiRCGx/5iaSwhvD6Cnmb6Z27/
+gjVKKs4HZuzE4rM8+sI4cqWA+T8knNALR2413aQZ+USOgjVzuO8=
+=yUTk
 -----END PGP SIGNATURE-----
